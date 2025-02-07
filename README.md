@@ -1,13 +1,13 @@
 <div align="center">
-  <img src="bonkpay-frontend/src/assets/bonk.png" alt="BonkPay Logo" width="200"/>
+  <img src="https://imgs.search.brave.com/ujqF4_doypXT4CY4Q1nPiw9hjpotEg30GwmQxPMynGw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC9xNXVsazRi/cDY1cjcvMmxPOE9l/THRsWnlvSWFQcnVU/WUowMi8yNmM1Yzgw/NmJlMThhNjdlMWFm/NjJkMjg4OWVhNjI1/Mi9ERVgucG5nP3c9/NzY4JmZtPXBuZw" alt="BonkTx Logo" width="200"/>
 
-  # ⚡ BonkPay
+  # 🤖 BonkTx
   <h3>
-    <strong>Your Gateway to Multi-Chain Transactions</strong>
+    <strong>Your all-in-one Web3 crypto companion! 🚀</strong>
   </h3>
 
   <p align="center">
-    Experience seamless crypto management across Ethereum and Solana chains
+    Seamlessly manage your Solana & Ethereum wallets with BonkTx! 🔥
   </p>
 
   <br/>
@@ -23,181 +23,113 @@
   <br/>
 
   <p align="center">
-    <strong>🔒 Non-Custodial</strong> &nbsp;•&nbsp;
+    <strong>🔒 Secure</strong> &nbsp;•&nbsp;
     <strong>⚡ Fast</strong> &nbsp;•&nbsp;
-    <strong>🛡️ Secure</strong> &nbsp;•&nbsp;
-    <strong>🌈 Modern UI</strong>
+    <strong>🛡️ Reliable</strong> &nbsp;•&nbsp;
+    <strong>🌍 Decentralized</strong>
   </p>
 </div>
 
 <div align="center">
-  <h2>🎥 Watch BonkPay in Action</h2>
+  <h2>🎥 Watch BonkTx in Action</h2>
   
-  [![BonkPay Demo](https://img.youtube.com/vi/SJ6JZ5TfxQk/maxresdefault.jpg)](https://www.youtube.com/watch?v=SJ6JZ5TfxQk)
+  [![BonkPay Demo](https://youtu.be/inINC7BJOvc?si=OngRsQ5zKtGScvQr)]
   
-  <p><em>Click the image to watch the demo video!</em></p>
+  <p><em>Watch the Demo Video ✨</em></p>
 </div>
 
-## ✨ Features
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="25%" style="padding: 20px;">
-        <img width="48" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/master-ball.png" alt="security"/>
-        <br/>
-        <strong>Secure Key Generation</strong>
-        <br/>
-        <sub>Military-grade encryption</sub>
-      </td>
-      <td align="center" width="25%" style="padding: 20px;">
-        <img width="48" src="https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/eth.svg" alt="eth"/>
-        <br/>
-        <strong>ETH Transactions</strong>
-        <br/>
-        <sub>Fast & secure transfers</sub>
-      </td>
-      <td align="center" width="25%" style="padding: 20px;">
-        <img width="48" src="https://raw.githubusercontent.com/spothq/cryptocurrency-icons/master/svg/color/sol.svg" alt="sol"/>
-        <br/>
-        <strong>SOL Transfers</strong>
-        <br/>
-        <sub>Lightning-quick sends</sub>
-      </td>
-      <td align="center" width="25%" style="padding: 20px;">
-        <img width="48" src="https://raw.githubusercontent.com/primer/octicons/main/icons/graph-24.svg" alt="tracking"/>
-        <br/>
-        <strong>Balance Tracking</strong>
-        <br/>
-        <sub>Real-time updates</sub>
-      </td>
-    </tr>
-  </table>
-</div>
+## ✨ Features 🛠️
 
-## 🏗️ Architecture
-
-```mermaid
-graph TD
-    A[Frontend - React] --> B[Backend - Node.js]
-    B --> C[MongoDB]
-    B --> D[Ethereum Network]
-    B --> E[Solana Network]
-    style A fill:#20232A,stroke:#61DAFB,stroke-width:2px,color:#fff
-    style B fill:#68A063,stroke:#3C873A,stroke-width:2px,color:#fff
-    style C fill:#4DB33D,stroke:#3FA037,stroke-width:2px,color:#fff
-    style D fill:#3C3C3D,stroke:#8A92B2,stroke-width:2px,color:#fff
-    style E fill:#9945FF,stroke:#14F195,stroke-width:2px,color:#fff
+```yaml
+🔑 User Authentication: Smooth login & registration with animated UI.
+💼 Wallet Management: Easily create & manage SOL & ETH wallets.
+🛡 Encrypted Keys: Private keys are safely stored using strong encryption.
+⚡ Send & Receive: Lightning-fast transactions for SOL & ETH.
+📜 Transaction History: Real-time tracking of all your past transactions.
 ```
 
-## 💻 Tech Stack
+## 🏗️ Tech Stack 💻
 
-<div align="center">
-<table>
-<tr>
-<td width="50%">
-
-### 🎨 Frontend
-```javascript
+```json
 {
-  "framework": "React 18.2 + Vite",
-  "styling": "TailwindCSS",
-  "web3": {
-    "ethereum": "ethers.js",
-    "solana": "@solana/web3.js"
-  },
-  "state": "React Hooks",
-  "api": "Axios"
+  "Frontend": "React.js (Vite) + TailwindCSS",
+  "Backend": "Node.js + Express.js",
+  "Database": "MongoDB (encrypted key storage)",
+  "Blockchain": ["Solana", "Ethereum"]
 }
 ```
 
-</td>
-<td width="50%">
+## 🚀 Quick Setup ⚡
 
-### ⚙️ Backend
-```javascript
-{
-  "runtime": "Node.js + Express",
-  "database": "MongoDB + Mongoose",
-  "security": "Bcrypt",
-  "networks": {
-    "eth": "Sepolia Testnet",
-    "sol": "Devnet"
-  }
-}
-```
+### Prerequisites 📌
+Ensure you have the following installed:
 
-</td>
-</tr>
-</table>
-</div>
+- 🟢 [Node.js](https://nodejs.org/)
+- 🟢 [MongoDB](https://www.mongodb.com/) (for local development)
 
-## 🚀 Quick Setup
-
-<details>
-<summary><b>📝 Installation Steps</b></summary>
+### Installation Steps 🛠️
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/bonkpay.git
+git clone https://github.com/HarshwardhanLahane/BonkTx.git
+cd BonkTx
 
-# Install frontend dependencies
-cd bonkpay-frontend
+# Install dependencies
 npm install
 
-# Install backend dependencies
-cd ../bonkpay-backend
-npm install
-
-# Configure environment
+# Configure environment variables
 cp .env.example .env
+```
 
-# Launch development servers
+### Set Up Environment Variables 🌍
+
+```ini
+MONGO_URI=your_mongo_connection_string
+JWT_SECRET=your_jwt_secret
+SOLANA_RPC_URL=your_solana_rpc_url
+ETHEREUM_RPC_URL=your_ethereum_rpc_url
+```
+
+### Start the Backend Server 🚀
+```bash
+npm run server
+```
+
+### Start the Frontend 🎨
+```bash
 npm run dev
 ```
-</details>
 
-## 🔐 Security Features
+## 📌 Usage 🔥
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center" width="50%" style="padding: 20px;">
-        <img width="48" src="https://raw.githubusercontent.com/primer/octicons/main/icons/shield-check-24.svg" alt="wallet-security"/>
-        <h3>🛡️ Wallet Security</h3>
-        <ul align="left">
-          <li>Non-custodial key management</li>
-          <li>Encrypted storage</li>
-          <li>Secure key generation</li>
-        </ul>
-      </td>
-      <td align="center" width="50%" style="padding: 20px;">
-        <img width="48" src="https://raw.githubusercontent.com/primer/octicons/main/icons/lock-24.svg" alt="transaction-security"/>
-        <h3>🔒 Transaction Security</h3>
-        <ul align="left">
-          <li>Real-time validation</li>
-          <li>Status monitoring</li>
-          <li>Balance verification</li>
-        </ul>
-      </td>
-    </tr>
-  </table>
-</div>
+```yaml
+1️⃣ Sign up or log in to access wallet features.
+2️⃣ Create a new Solana or Ethereum wallet.
+3️⃣ Send and receive SOL/ETH transactions.
+4️⃣ View transaction history anytime.
+```
 
-## 🌐 Connect
+## 🛣️ Roadmap 🗺️
+
+```yaml
+✅ Initial release with SOL & ETH wallet support
+🔜 Multi-wallet functionality
+🔜 Support for ERC-20 & SPL tokens
+🔜 Web3 authentication (e.g., WalletConnect)
+🔜 Deployment to production
+```
+
+## 🤝 Contributing 🤖
+
+Want to help improve Bonk Bot? Feel free to fork the repository and submit pull requests! Contributions are always welcome. 🚀
+
+## 🌐 Connect 📡
 
 <div align="center">
-  <a href="https://twitter.com/VagabondBushido">
-    <img src="https://img.shields.io/badge/Follow_@VagabondBushido-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
+  <a href="https://x.com/Gruuttttt">
+    <img src="https://img.shields.io/badge/Follow_@Gruuttttt-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white" alt="Twitter"/>
   </a>
 </div>
 
-<br/>
 
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:3C3C3D,50:9945FF,100:14F195&height=100&section=footer" width="100%"/>
-  
-  <p>
-    <sub>Built with 💜 by ME</sub>
-  </p>
-</div>
