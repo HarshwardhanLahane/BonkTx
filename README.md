@@ -13,12 +13,14 @@
   <br/>
 
   <div>
-    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React"/>
-    <img src="https://img.shields.io/badge/Ethereum-3C3C3D?style=for-the-badge&logo=Ethereum&logoColor=white" alt="Ethereum"/>
-    <img src="https://img.shields.io/badge/Solana-9945FF?style=for-the-badge&logo=Solana&logoColor=white" alt="Solana"/>
-    <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js"/>
-    <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB"/>
-  </div>
+    <img src="https://img.shields.io/badge/React-0D1117?style=flat-square&logo=react&logoColor=61DAFB" alt="React"/>
+    <img src="https://img.shields.io/badge/Ethereum-5A5A5A?style=flat-square&logo=ethereum&logoColor=white" alt="Ethereum"/>
+    <img src="https://img.shields.io/badge/Solana-6A00FF?style=flat-square&logo=solana&logoColor=white" alt="Solana"/>
+    <img src="https://img.shields.io/badge/Node.js-0B7322?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js"/>
+    <img src="https://img.shields.io/badge/MongoDB-116149?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB"/>
+</div>
+
+
 
   <br/>
 
@@ -31,7 +33,7 @@
 </div>
 
 <div align="center">
-  <h2>🎥 Watch BonkTx in Action</h2>
+  <h2>How it is Working</h2>
   
   [![BonkPay Demo](https://youtu.be/inINC7BJOvc?si=OngRsQ5zKtGScvQr)]
   
